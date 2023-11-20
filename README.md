@@ -64,7 +64,7 @@ Merging CCD and Geocode Data: The Common Core of Data (CCD), containing informat
 
 Incorporating Educational Attainment Data: This merged dataset was then combined with educational attainment data, focusing on the percentage of the population with higher education degrees in corresponding counties. The merge happened over the association of each entry with a FIPS (Federal Information Processing Standard) number  in both datasets, which is assigned on a county level. 
 
-	Code:
+Code:
  ```
 # Redoing the initial merge based on NCESSCH
 ccd_magnet_geocode_merged = pd.merge(ccd_magnet_schools, geocode_data, on="NCESSCH", how='inner')
