@@ -147,7 +147,8 @@ plt.show()
 ### Linear Regression 
 The regression analysis provided insights into the relationship between magnet school presence, wealth (median income), and educational attainment:
 #### Model Summary:
-#### R-squared: The R-squared value is 0.711, indicating that about 71.1% of the variability in educational attainment is explained by the model.
+#### R-squared:
+The R-squared value is 0.711, indicating that about 71.1% of the variability in educational attainment is explained by the model.
 
 #### Coefficients:
 Magnet School Presence (MAGNET_BINARY): The coefficient for magnet schools is -0.4440, but it's not statistically significant (p-value = 0.624). This implies that the presence of magnet schools, as per this model, does not have a significant impact on educational attainment when controlling for median income.
