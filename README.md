@@ -61,7 +61,9 @@ For additional information: [NIH HDPulse](https://hdpulse.nimhd.nih.gov/data-por
 ## Data Analysis
 ### Data Filtration, Cleaning, and Merging
 Merging CCD and Geocode Data: The Common Core of Data (CCD), containing information about schools, including their magnet status, was merged with geocode data to link schools with geographical locations. The key column for merging was NCESSH, which is a unique identifier given to each school by the NCES. 
+
 Incorporating Educational Attainment Data: This merged dataset was then combined with educational attainment data, focusing on the percentage of the population with higher education degrees in corresponding counties. The merge happened over the association of each entry with a FIPS (Federal Information Processing Standard) number  in both datasets, which is assigned on a county level. 
+
 	Code:
  ```
 # Redoing the initial merge based on NCESSCH
