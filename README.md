@@ -192,11 +192,14 @@ model_summary
 As the original regression model did not provide significant results, I attempted a different analysis using a logistic regression model. 
 #### Model Evaluation:
 #### Classification Report:
-Precision and Recall for Class 1 (High Attainment): The model failed to correctly predict any of the high attainment cases (class 1), as indicated by a precision and recall of 0.00. This suggests that the model is not effective in identifying high educational attainment based solely on magnet school presence.
+#### Precision and Recall for Class 1 (High Attainment): 
+The model failed to correctly predict any of the high attainment cases (class 1), as indicated by a precision and recall of 0.00. This suggests that the model is not effective in identifying high educational attainment based solely on magnet school presence.
 
-Accuracy: The overall accuracy is 62%, but this is misleading as the model only predicts 'low' educational attainment (class 0).
+#### Accuracy: 
+The overall accuracy is 62%, but this is misleading as the model only predicts 'low' educational attainment (class 0).
 
-Confusion Matrix: The matrix shows 95 true negatives (correctly predicted low attainment) but 57 false negatives (high attainment cases incorrectly predicted as low). The model did not predict any true positives (correct high attainment) or false positives.
+#### Confusion Matrix: 
+The matrix shows 95 true negatives (correctly predicted low attainment) but 57 false negatives (high attainment cases incorrectly predicted as low). The model did not predict any true positives (correct high attainment) or false positives.
 
 #### Interpretation and Considerations
 The logistic regression model, when only considering the presence of magnet schools, does not appear to be effective in predicting educational attainment. This could suggest that magnet school presence alone, without accounting for other factors like wealth or demographic variables, is not a strong predictor of high educational attainment in this dataset.
@@ -230,13 +233,17 @@ logistic_report_magnet, logistic_confusion_matrix_magnet
 Due to the lack of significant results with regression, I once again changed approaches, this time to a propensity score matching approach. I initially had ChatGPT do it one way, but then realized it wasn't taking into account the wealth confounder, so I made it redo the analysis. The revised version is outlined below. 
 
 #### Steps:
-Incorporate Wealth Data into Propensity Score Calculation: We'll merge the wealth data into our dataset and use it along with other characteristics to calculate the propensity scores.
+##### Incorporate Wealth Data into Propensity Score Calculation: 
+We'll merge the wealth data into our dataset and use it along with other characteristics to calculate the propensity scores.
 
-Recalculate Propensity Scores: With the wealth data included, we'll recalculate the propensity scores for each school.
+##### Recalculate Propensity Scores:
+With the wealth data included, we'll recalculate the propensity scores for each school.
 
-Perform Matching Again: We'll match magnet schools with non-magnet schools based on these new propensity scores.
+##### Perform Matching Again: 
+We'll match magnet schools with non-magnet schools based on these new propensity scores.
 
-Compare Educational Attainment: We'll compare the educational attainment between the newly matched schools, with the wealth factor accounted for in the matching.
+##### Compare Educational Attainment: 
+We'll compare the educational attainment between the newly matched schools, with the wealth factor accounted for in the matching.
 
 Code:
 ```
@@ -274,7 +281,9 @@ Both magnet and matched non-magnet schools exhibit similar distributions of educ
 The boxplots for both groups also depict similar distributions, reinforcing the histogram findings.
 
 #### Statistical Comparison:
+
 Mean Educational Attainment: The mean educational attainment is identical for both magnet schools and matched non-magnet schools, approximately 30.69%.
+
 Median Educational Attainment: The median educational attainment is the same for both groups, around 30.83%.
 
 Code:
