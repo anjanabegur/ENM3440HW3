@@ -1,0 +1,73 @@
+﻿Income (Median household income) for California by County,,,,
+"All Races (includes Hispanic/Latino), Both Sexes, All Ages, 2017-2021",,,,
+Sorted by Value,,,,
+,,,,
+County, FIPS,Value (Dollars),Rank within US (of 3141 counties),
+United States,0,69,21,N/A
+California,6000,84,97,6 of 51
+Trinity County,6105,42,206,"2,794"
+Imperial County,6025,49,78,"2,290"
+Siskiyou County,6093,49,857,"2,228"
+Modoc County,6049,51,90,"2,113"
+Tehama County,6103,52,901,"1,928"
+Del Norte County,6015,53,280,"1,878"
+Mariposa County,6043,53,304,"1,874"
+Humboldt County,6023,53,350,"1,870"
+Lake County,6033,53,399,"1,861"
+Sierra County,6091,56,152,"1,548"
+Glenn County,6021,56,332,"1,533"
+Mendocino County,6045,56,378,"1,526"
+Tulare County,6107,57,394,"1,437"
+Plumas County,6063,57,885,"1,388"
+Kern County,6029,58,824,"1,288"
+Merced County,6047,58,861,"1,281"
+Lassen County,6035,59,292,"1,252"
+Butte County,6007,59,863,"1,191"
+Inyo County,6027,60,925,"1,103"
+Fresno County,6019,61,276,"1,076"
+Colusa County,6011,61,861,"1,028"
+Shasta County,6089,61,937,"1,023"
+Yuba County,6115,62,666,965
+Kings County,6031,63,267,918
+Madera County,6039,66,709,684
+Tuolumne County,6109,66,846,677
+Sutter County,6101,67,3,673
+Stanislaus County,6099,68,368,599
+Amador County,6005,69,955,526
+Calaveras County,6009,70,119,520
+San Bernardino County,6071,70,287,514
+Mono County,6051,71,138,481
+Nevada County,6057,74,617,370
+San Joaquin County,6077,74,962,362
+Riverside County,6065,76,66,335
+Los Angeles County,6037,76,367,326
+Sacramento County,6067,76,422,324
+Yolo County,6113,78,386,275
+Monterey County,6053,82,13,226
+San Luis Obispo County,6079,82,514,218
+Santa Barbara County,6083,84,356,199
+San Diego County,6073,88,240,157
+El Dorado County,6017,88,770,146
+Solano County,6095,89,648,139
+Sonoma County,6097,91,607,124
+Ventura County,6111,94,150,102
+San Benito County,6069,95,606,94
+Alpine County,6003,96,0,89
+Santa Cruz County,6087,96,93,86
+Napa County,6055,97,498,78
+Placer County,6061,99,734,69
+Orange County,6059,100,485,67
+Contra Costa County,6013,110,455,36
+Alameda County,6001,112,17,30
+San Francisco County,6075,126,187,11
+Marin County,6041,131,8,6
+San Mateo County,6081,136,837,4
+Santa Clara County,6085,140,258,3
+,,,,
+Suggested Citation:,,,,
+HDPulse: An Ecosystem of Minority Health and Health Disparities Resources. National Institute on Minority Health and Health Disparities. Created 11/18/2023. Available from https://hdpulse.nimhd.nih.gov,,,,
+,,,,
+Notes:,,,,
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).,,,,
+"For more information about Income (Median household income), see the dictionary at http://hdpulse.nimhd.nih.gov/data/dictionary.php#income.",,,,
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]",,,,
